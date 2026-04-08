@@ -1,0 +1,12 @@
+[project]
+name = "titanic-dashboard"
+version = "0.1.0"
+dependencies = [
+    "fastapi[standard]",
+    "uvicorn",
+    "streamlit",
+    "pandas",
+    "plotly",
+    "scikit-learn",
+    "requests",
+]
